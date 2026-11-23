@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background: #f3f5f9; color: #1d2433; }
+.shell { min-height: 100vh; }
+.topbar { display: flex; justify-content: space-between; align-items: center; padding: 14px 28px; background: #0b3d91; color: #fff; }
+.topbar .brand { font-weight: 700; letter-spacing: .3px; }
+.topbar nav a { color: #dbe6ff; margin-left: 18px; text-decoration: none; }
+main { display: flex; justify-content: center; padding: 48px 16px; }
+.card { width: 100%; max-width: 400px; background: #fff; border-radius: 10px; padding: 28px; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+.card h1 { font-size: 22px; margin: 0 0 18px; }
+.field { margin-bottom: 14px; }
+.field label { display: block; font-size: 14px; margin-bottom: 6px; }
+.field input { width: 100%; padding: 10px 12px; border: 1px solid #c8cfdc; border-radius: 6px; font-size: 15px; }
+.field input.invalid { border-color: #c62828; }
+.field .err { color: #c62828; font-size: 13px; margin-top: 4px; }
+button { width: 100%; padding: 11px; border: 0; border-radius: 6px; background: #0b3d91; color: #fff; font-size: 15px; cursor: pointer; }
+button:disabled { opacity: .6; cursor: default; }
+.alert { padding: 10px 12px; border-radius: 6px; margin-bottom: 14px; font-size: 14px; }
+.alert.error { background: #fdecea; color: #8e1c1c; }
+.alert.success { background: #e7f6ec; color: #1b5e20; }
+.links { margin-top: 14px; font-size: 14px; text-align: center; }
+.links a { color: #0b3d91; }
